@@ -166,8 +166,8 @@ function prepareBillData(row, totalAmount, breakdown, pincode) {
 
 // Helper function to send invoice to API
 function sendInvoiceToAPI(billData) {
-  const baseUrl = 'https://api.refrens.com/businesses/ayush-wvpaxu/invoices';
-  const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoIjp7ImVudGl0eSI6ImFwcCIsInN0cmF0ZWd5IjoiYXBwLXRva2VuIiwiX3BuIjoibXBwdXBib3VjcCJ9LCJpYXQiOjE3MzIxMDk5ODIsImV4cCI6MTczMjE5NjM4MiwiYXVkIjoic2VyYW5hIiwiaXNzIjoic2VyYW5hIiwic3ViIjoiYXl1c2gtd3ZwYXh1LXMzVmtGIiwianRpIjoiNTQ0MTAzYWItNDgyMC00NjljLThlZjMtZTU2OWUxYTU2Y2E3In0.DiM5NF9T2FT4W_rT32bdjjtGLQKeZv_JJv5q9vJBpSs';
+  const baseUrl = 'https://api.refrens.com/businesses/your-username/invoices';
+  const token = 'your-jwt-token';
 
   try {
     const options = {
